@@ -1,2 +1,1 @@
-# Prune
-ver. 0.1.0
+# Simple Chess
