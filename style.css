@@ -1,0 +1,84 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+canvas {
+	cursor: default;
+	width: calc(100% - 4px);
+	height: calc(100vh - 4px);
+}
+
+canvas:hover, canvas:focus, canvas:active {
+	cursor: default;
+}
+
+#info {
+	position: absolute;
+	width: calc((100vw - 100vh) / 2 - 2vw);
+	height: calc(100% - 2vw);
+	left: 0px;
+	top: 0px;
+	padding: 1vw;
+	z-index: 1;
+	overflow-y: auto;
+	background-color: #EDEDED;
+	border-right: 2px solid #DCDCDC;
+}
+
+.message {
+	position: relative;
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+	padding: 0.5vh;
+	font-family: Comic Sans MS;
+	color: #242424;
+	border-bottom: 1px solid #D3D3D3;
+}
+
+#menu {
+	position: absolute;
+	width: calc((100vw - 100vh) / 2);
+	height: 100%;
+	right: 0px;
+	top: 0px;
+	padding-top: 5vw;
+	font-size: 1.2em;
+	z-index: 1;
+	overflow-y: auto;
+	background-color: #EDEDED;
+	border-left: 2px solid #DCDCDC;
+}
+
+button {
+	width: 60%;
+	text-align: center;
+	margin: 1vh;
+	margin-left: 20%;
+	font-family: Comic Sans MS;
+	color: #133E07;
+	border: 0;
+	border-radius: 5vh;
+	border-bottom: 2px solid #2E8B14;
+	background:  linear-gradient(#77FF53, #54D631);
+}
+
+button:hover {
+	background:  linear-gradient(#77FF53, #49C028);
+}
+
+button:active {
+	background:  linear-gradient(#49C028, #77FF53);
+}
+
+select {
+	width: 60%;
+	text-align: center;
+	margin: 1vh;
+	margin-left: 20%;
+	font-family: Comic Sans MS;
+	color: #133E07;
+	border-radius: 5vh;
+}

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Game</title>
+	<title>Chess AI</title>
 	<meta charset="utf-8">
-	<script defer type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script defer type="text/javascript" src="script.js"></script>
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -16,6 +16,11 @@
 	<div id='menu'>
 		<button id='play_b'>Play Black</button>
 		<button id='play_w'>Play White</button>
+		<select id='difficulity'>
+			<option value='1'>Insane bot</option>
+			<option value='2' selected='selected'>Normal bot</option>
+			<option value='3'>Pensive bot</option>
+		</select>
 		<button id='restart' hidden>Restart</button>
 		<button id='undo' hidden>Turn back</button>
 	</div>
